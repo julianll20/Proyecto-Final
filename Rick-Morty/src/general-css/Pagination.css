@@ -1,0 +1,41 @@
+li {
+    list-style: none;
+    
+  }
+  
+
+  .Paginas {
+    text-align: center; 
+  }
+  
+  .Paginas nav {
+    display: flex;
+    justify-content: space-between; 
+  }
+  
+  .Paginas button {
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 10px 20px;
+    font-size: 16px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .Paginas button:hover {
+    background-color: #d5e40a; 
+    
+    transform: scale(1.1);
+  }
+  
+
+
+  
+  
+  
+
+
+
+  

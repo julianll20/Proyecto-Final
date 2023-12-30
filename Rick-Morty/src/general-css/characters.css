@@ -1,0 +1,29 @@
+.Padre-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+
+}
+
+.card {
+  margin: 1rem;
+  border: 2px solid white;
+  background-color: rgb(0, 0, 0);
+  margin: 10px;
+  border-radius: 15px;
+  border-color: black;
+  overflow: hidden;
+  cursor: default;
+  transition: all 400ms ease;
+  font-family: 'Delicious Handrawn', cursive;
+  font-size: 20px;
+  color: white;
+
+}
+
+
+.card:hover {
+  transform: translateY(-30px);
+}

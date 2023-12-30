@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Lora:wght@400;600&display=swap');
+
+
+.mi-header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+    
+    
+  }
+  
+  .cambio-de-pagina {
+    margin-top: 10px; 
+  }
+  h1{
+    font-size: 5rem;
+    text-shadow: 0 0 15px #ffff00;
+    color: #00ffff;
+    animation: title 1s infinite;
+    font-family: 'Delicious Handrawn', cursive;
+    display: flex;
+    justify-content: center;
+  }
+    @keyframes title {
+        50%{ text-shadow: 0 0 15px #00ffff ;
+            color:  #ffff00; }
+       
+    }
+   

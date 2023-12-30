@@ -1,0 +1,30 @@
+.filtro-container{
+    margin: 10px;
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+  .filtro-input {
+    width: 20rem;
+    height: 1rem;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    background-color: #1c272e;
+    padding: 1rem;
+    color: #ffff;
+    font-family: 'Delicious Handrawn', cursive;
+    
+  }
+  
+  .filtro-button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #ffff00;
+    color: rgb(7, 7, 7);
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    
+    
+  }
